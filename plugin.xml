@@ -42,6 +42,7 @@
 
         <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
         <source-file src="src/android/com/zendrive/phonegap/ZendriveCordovaPlugin.java" target-dir="src/com/zendrive/phonegap" />
+        <source-file src="src/android/com/zendrive/phonegap/ZendriveCordovaService.java" target-dir="src/com/zendrive/phonegap" />
 
     </platform>
     <platform name="ios">
